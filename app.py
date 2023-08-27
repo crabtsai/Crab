@@ -15,7 +15,7 @@ from tensorflow.keras.models import model_from_json
 model = tf.keras.models.load_model('model.h5')
 
 col1, col2 = st.columns(2)
-
+st.title('Crab_數字及A~Z辨識')
 with col1:
     # Create a canvas component
     canvas_result = st_canvas(
